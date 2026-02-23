@@ -1,0 +1,17 @@
+package CSCORNER;
+public class A10 {
+	static boolean est_paire(int n) {
+		if(n % 2 == 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	public static void main(String[] args) {
+		System.out.println(est_paire(0));
+		System.out.println(est_paire(3));
+		System.out.println(est_paire(-3));
+	}
+
+}
