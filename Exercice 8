@@ -1,0 +1,30 @@
+package CSCORNER;
+import java.util.Scanner;
+public class A8 {
+	public static void main(String[] args) {
+		int i;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Saisir la longueur du tableau : ");
+		int n = sc.nextInt();
+		int[] tab = new int[n];
+		System.out.println("Veuillez Remplir le Tableau avec des entiers SVP");
+		for(i=0;i<n;i++) {
+			System.out.println("tab["+(i+1)+"] = ");
+			tab[i] = sc.nextInt();
+		}
+		System.out.println("Entrez l'element a recherché : ");
+		int cpt=0,element = sc.nextInt();
+		for(i=0;i<n;i++) {
+			if(tab[i] == element) {
+				cpt=1;
+			}
+		}
+		if(cpt==1) {
+			System.out.println("Present");
+		}
+		else {
+			System.out.println("Absent");
+		}
+	}
+
+}
