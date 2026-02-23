@@ -1,0 +1,25 @@
+package CSCORNER;
+import java.util.Scanner;
+class A5 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n=0,somme=0;
+		while(n>=0){
+			System.out.println("Saisir un nombre : ");
+			n = sc.nextInt();
+			if(n>=0) {
+				somme+=n;
+			}
+			else {
+				break;
+			}
+		}
+		if(somme == 0) {
+			System.out.println("Vous avez choisit un nombre négatif en premier\n");
+			System.out.println("Donc Somme = "+somme);
+		}
+		else {
+			System.out.println("Somme = "+somme);
+		}
+	}
+}
