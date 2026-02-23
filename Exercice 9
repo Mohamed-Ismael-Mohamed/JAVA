@@ -1,0 +1,10 @@
+package CSCORNER;
+public class A9 {
+	public static void main(String[] args) {
+		String a = "Mohamed Ismael";
+		System.out.println("Longueur = "+a.length());
+		System.out.println("Premier Caractère = "+a.charAt(0));
+		System.out.println("Dernier Caractère = "+a.charAt((a.length())-1));
+
+	}
+}
