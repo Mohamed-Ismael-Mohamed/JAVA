@@ -1,0 +1,25 @@
+package CSCORNER;
+import java.util.Scanner;
+public class A2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Saisir l'entier A : ");
+		int a=sc.nextInt();
+		System.out.println("Saisir l'entier B : ");
+		int b=sc.nextInt();
+		System.out.println(a+" + "+b+" = "+(a+b));
+		System.out.println(a+" * "+b+" = "+(a*b));
+		if(a<b) {
+			System.out.println("Le plus grand c'est "+b);
+		}
+		else {
+			if(a==b) {
+				System.out.println("Il n'y a pas de plus grand car "+a+" = "+b);
+			}
+			else {
+				System.out.println("Le plus grand c'est "+a);
+			}
+		}
+	}
+
+}
