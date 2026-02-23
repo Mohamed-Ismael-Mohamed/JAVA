@@ -1,0 +1,21 @@
+package CSCORNER;
+import java.util.Scanner;
+public class A7 {
+	public static void main(String args[]) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Saisir un entier N : ");
+		int n = sc.nextInt();
+		int[] tab = new int[n];
+		int i;
+		System.out.println("Veuillez Remplir le Tableau avec des entiers SVP");
+		for(i=0;i<n;i++) {
+			System.out.println("tab["+(i+1)+"] = ");
+			tab[i] = sc.nextInt();
+		}
+		System.out.println("Affichage du tableau");
+		for(i=0;i<n;i++) {
+			System.out.println(tab[i]);
+		}
+		
+	}
+}
