@@ -1,0 +1,15 @@
+package CSCORNER;
+import java.util.Scanner;
+public class A4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i,somme=0;
+		System.out.println("Jusqu'à où vouvlez aller");
+		int n = sc.nextInt();
+		for(i=1;i<=n;i++) {
+			System.out.println(i+"\n");
+			somme+=i;
+		}
+		System.out.println("Somme de elements = "+somme);
+	}
+}
